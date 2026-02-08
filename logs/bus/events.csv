@@ -6,3 +6,41 @@ MoCKA Phase 2-A を開始する。
 各エージェントは、この共有内容を共通前提として、
 以後の意見提出・検討・合議を行うこと。
 ",,shared,,,,e64eaedae2828d89ed02e424291687e02c3857d1b8a63fd15d84a6038f177f36
+aed39ec6-a5dc-4d11-8e26-c21250a724e3,2026-02-08T04:01:13.471073+00:00,2026-02-08-002,share,orchestrator,orchestrator_core,PH2-A,"【共有事項】
+MoCKA Phase 2-A を開始する。
+本ラウンドでは「共有して」プロトコルの確立を目的とする。
+
+各エージェントは、この共有内容を共通前提として、
+以後の意見提出・検討・合議を行うこと。
+",,shared,,,,e64eaedae2828d89ed02e424291687e02c3857d1b8a63fd15d84a6038f177f36
+79730959-5f1d-452e-bff9-0b30671ef0fa,2026-02-08T04:06:00.022393+00:00,2026-02-08-002,ask,orchestrator,orchestrator_core,PH2-B,"【意見募集（ask）】
+本ラウンドの共有事項（motion=share）を前提として、
+「合議プロトコル（ask/reply/decide）」の最小運用仕様を提案せよ。
+
+必須出力（この順で）：
+1. 結論（提案する最小仕様）
+2. 根拠（なぜそれが最小で回るか）
+3. リスク（破綻パターンと予防）
+4. 代替案（次点案）
+5. 次アクション（実装手順の最短列）
+
+制約：
+- Bus の event 辞書形式に適合すること
+- parent_event_id と evidence_ref の運用を明確にすること
+",,open,,,,baaa1ae657caf86ef77c44429e2a5dcb6659859397a690a15cde3118f7f6a30b
+e0471cc0-9238-4e38-aa89-2e1ac1178574,2026-02-08T04:08:06.564352+00:00,2026-02-08-002,reply,member,agent_perplexity,KPA-PPLX,"【回答（reply）】
+1. 結論：
+Bus を中心にした event 駆動型合議は最小構成として成立する。
+
+2. 根拠：
+round_id と parent_event_id により、議論の木構造が保持されるため。
+
+3. リスク：
+reply が増えすぎた場合の収束困難。
+
+4. 代替案：
+reply を一定数で締め切り、decide を強制発火。
+
+5. 次アクション：
+reply 件数トリガーによる decide 自動生成。
+",,submitted,,79730959-5f1d-452e-bff9-0b30671ef0fa,,003e37c2bc2074d0a44cb94ba18360c22ca9ac7af4ddd2d2296c7612e3f9e02a
