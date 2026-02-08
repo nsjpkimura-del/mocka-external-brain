@@ -1,3 +1,8 @@
-event_id,timestamp,round_id,motion,actor,agent_name,kpa_id,content,content_ref,status,error_class,parent_event_id,evidence_ref,hash,,,,,,,,,,,,,
-10dc6462-6638-4972-91d4-f4a87460bbd9,2026-02-08T01:54:17.781513+00:00,2026-02-08-001,save,orchestrator,orchestrator_core,PH1,Phase 1 smoke test: first event write.,,done,,,,5a13b160a784638721ab622d897a3529d9136c853da3f5351a4a70fd5052b11c,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,5a13b160a784638721ab622d897a3529d9136c853da3f5351a4a70fd5052b11c
+event_id,timestamp,round_id,motion,actor,agent_name,kpa_id,content,content_ref,status,error_class,parent_event_id,evidence_ref,hash
+0fda9af7-12a3-44bd-8f42-edf2ee670153,2026-02-08T03:25:01.327539+00:00,2026-02-08-002,share,orchestrator,orchestrator_core,PH2-A,"【共有事項】
+MoCKA Phase 2-A を開始する。
+本ラウンドでは「共有して」プロトコルの確立を目的とする。
+
+各エージェントは、この共有内容を共通前提として、
+以後の意見提出・検討・合議を行うこと。
+",,shared,,,,e64eaedae2828d89ed02e424291687e02c3857d1b8a63fd15d84a6038f177f36
