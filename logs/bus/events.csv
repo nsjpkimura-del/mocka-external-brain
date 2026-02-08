@@ -44,3 +44,25 @@ reply を一定数で締め切り、decide を強制発火。
 5. 次アクション：
 reply 件数トリガーによる decide 自動生成。
 ",,submitted,,79730959-5f1d-452e-bff9-0b30671ef0fa,,003e37c2bc2074d0a44cb94ba18360c22ca9ac7af4ddd2d2296c7612e3f9e02a
+16f9e229-b168-413c-a506-b8ce1ba03e8d,2026-02-08T04:25:07.025714+00:00,2026-02-08-002,decide,orchestrator,orchestrator_core,PH2-B,"【決定（decide）】
+採用仕様：
+1. MoCKA の一次神経は MoCKA Bus（events）とする。
+2. 合議は ask / reply / decide の3動作で成立させる。
+3. reply は parent_event_id により ask に紐付ける。
+4. decide は evidence_ref により採用根拠（reply_event_id）を明示する。
+5. 共有（share）は同一 round_id 内で改訂履歴として許容し、最新を優先する。
+
+採用理由：
+- round_id と event_id により追跡可能性が成立する。
+- parent_event_id により議論の木構造が形成され、収束が定義できる。
+- evidence_ref により決定と根拠が監査可能となる。
+- UI/OCR 依存を排除できる。
+
+却下仕様：
+- UI巡回（ブラウザ自動操作）を常時神経として用いる方式。
+- OCR を一次取り込みとする方式。
+
+次アクション：
+1. reply を複数件まで受け付ける運用を追加（締切条件の設計）。
+2. reply 件数・時間で decide を自動起票する Phase 2-C を実装する。
+",,done,,,e0471cc0-9238-4e38-aa89-2e1ac1178574,667185e9598a68fe13498ec768b91a1651d85b33acb5ddb5566d639e88e1d06a
