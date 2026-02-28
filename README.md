@@ -1,5 +1,7 @@
 ﻿[Whitepaper v0.1](https://github.com/nsjpkimura-del/mocka-civilization/blob/main/WHITEPAPER_v0.1.md)
 
+Cross-agent synchronization and extension layer.
+
 # MoCKA Core Private
 
 ## Operational & Experimental Core Layer  
