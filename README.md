@@ -1,47 +1,49 @@
-﻿# MoCKA External Brain
+﻿# MoCKA Core Private
 
-## Cross-Agent Synchronization & Cognitive Extension Layer  
-MoCKA External Brain ― 協調同期と知的拡張のための接続層
+## Operational & Experimental Core Layer  
+MoCKA Core Private ― 実運用および検証のための内部実装層
 
 ---
 
-### What is MoCKA External Brain?
+### What is MoCKA Core Private?
 
-MoCKA External Brain is the synchronization and extension layer of the MoCKA architecture.
+MoCKA Core Private is the operational and experimental implementation layer of the MoCKA architecture.
 
-While MoCKA defines the minimal institutional core,  
-and Knowledge Gate preserves structured institutional memory,  
-External Brain enables structured communication across agents, environments, and systems.
+While the public MoCKA repository defines the minimal institutional core and its principles,  
+this repository contains internal runtime logic, experimental governance extensions, and controlled validation components.
 
-It is not a database.  
-It is not a model.  
-It is a controlled interface for collaborative cognition.
+It is not a hidden system.  
+It is a controlled environment for iteration and verification.
 
 ---
 
 ### Purpose
 
-MoCKA External Brain enables:
+MoCKA Core Private enables:
 
-- Cross-agent synchronization  
-- Context transmission across sessions  
-- Structured external memory bridging  
-- Multi-environment continuity  
+- Experimental implementation of governance logic  
+- Runtime validation of deterministic chains  
+- Internal testing of key lifecycle controls  
+- Observer coordination experiments  
+- Structural stress-testing before public integration  
 
-It reduces model isolation and prevents knowledge fragmentation.
+This layer allows refinement before formalization.
 
-The goal is not infinite expansion,  
-but disciplined extension.
-
-From isolated execution  
-to coordinated cognition.
+Hypothesis.  
+Experiment.  
+Verification.  
+Correction.  
+Integration.
 
 ---
 
 ### Position in the MoCKA Architecture
 
 MoCKA  
-→ Institutional Core (Deterministic Governance)
+→ Institutional Core (Public Minimal Governance)
+
+MoCKA Core Private  
+→ Operational & Experimental Implementation
 
 MoCKA Knowledge Gate  
 → Institutional Memory Layer
@@ -52,25 +54,31 @@ MoCKA External Brain
 MoCKA Civilization  
 → Evolutionary Blueprint
 
-Together, they form a layered architecture for accountable AI evolution.
+Together they form a layered, reproducible governance architecture.
 
 ---
 
 ## 日本語
 
-### MoCKA External Brainとは何か
+### MoCKA Core Privateとは何か
 
-MoCKA External Brain は、MoCKA構造における協調同期と拡張のための接続層です。
+MoCKA Core Private は、MoCKA構造における実運用および検証のための内部実装層です。
 
-MoCKA が制度的コアを定義し、  
-Knowledge Gate が制度的記憶を保持するのに対し、  
-External Brain はエージェント間・環境間の構造化された接続を担います。
+公開コアが制度的最小構造を定義するのに対し、  
+このリポジトリでは実装実験・検証・改善が行われます。
 
-これは単なるデータベースではありません。  
-知性を無秩序に拡張するための仕組みでもありません。
+これは隠された仕組みではありません。  
+制度を安定させるための検証環境です。
 
-制御された拡張と、責任ある協調を可能にする層です。
+仮説。  
+実験。  
+検証。  
+修正。  
+統合。
 
-孤立した実行から、協調的認知へ。
+この循環を支える層です。
 
-MoCKA External Brain は、そのための橋渡し構造です。
+---
+Part of the MoCKA Deterministic Governance Architecture.
+See Civilization layer for full structural doctrine.
+
