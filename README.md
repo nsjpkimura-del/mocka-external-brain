@@ -1,4 +1,6 @@
-﻿# MoCKA Core Private
+﻿[Whitepaper v0.1](https://github.com/nsjpkimura-del/mocka-civilization/blob/main/WHITEPAPER_v0.1.md)
+
+# MoCKA Core Private
 
 ## Operational & Experimental Core Layer  
 MoCKA Core Private ― 実運用および検証のための内部実装層
@@ -81,4 +83,5 @@ MoCKA Core Private は、MoCKA構造における実運用および検証のた�
 ---
 Part of the MoCKA Deterministic Governance Architecture.
 See Civilization layer for full structural doctrine.
+
 
