@@ -125,3 +125,5 @@ MoCKA エコシステムが
 再現可能性
 
 内部記憶と外部知識の分離
+## Role
+Primary Role: Verification
