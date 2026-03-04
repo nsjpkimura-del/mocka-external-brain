@@ -1,276 +1,118 @@
-﻿# MoCKA Ecosystem
+﻿MoCKA External Brain
 
-![License](https://img.shields.io/badge/license-MIT-blue)
-![Architecture](https://img.shields.io/badge/architecture-deterministic-black)
-![Governance](https://img.shields.io/badge/governance-verifiable-green)
-![Audit](https://img.shields.io/badge/audit-cryptographic-orange)
 
----
+Role
 
-## EN — Verifiable AI Governance Architecture
+mocka-external-brain defines how the MoCKA ecosystem connects to external knowledge sources and extended cognitive systems.
 
-MoCKA is a deterministic governance architecture designed for verifiable AI systems.
+It describes the design principles for safely integrating external information flows into the institutional memory structure.
 
-The ecosystem enforces reproducibility and auditability through:
 
-• deterministic orchestration  
-• cryptographic hash chains  
-• institutional memory preservation  
-• public verification infrastructure  
+What This Repository Contains
 
-Architecture Overview
+Concepts for external knowledge integration.
 
-![Architecture Overview](docs/architecture/mocka_architecture_overview.png)
+Design rules for controlled information ingestion.
 
----
+Architecture for extended cognition beyond the core system.
 
-## JP — 検証可能AI統治アーキテクチャ
 
-MoCKA は **検証可能な AI 統治システム** のための決定論的アーキテクチャです。
+Canonical Documentation
 
-本エコシステムは以下によって再現性と監査可能性を保証します。
+Canonical docs are maintained in the ecosystem root documentation directory.
 
-・決定論的オーケストレーション  
-・暗号ハッシュ連鎖  
-・制度的記憶保存  
-・公開検証基盤  
+C:\Users\sirok\mocka-ecosystem\_canon\docs
 
-Architecture Overview
+Key documents
 
-![Architecture Overview](docs/architecture/mocka_architecture_overview.png)
+MOCKA_ARCHITECTURE_DIAGRAM.md
+MOCKA_ECOSYSTEM_DIAGRAM.md
+MOCKA_REPOSITORY_MAP.md
+SYSTEM_OVERVIEW.md
 
----
 
-## Ecosystem Map
+Core Concepts
 
-| Repository | Role |
-|---|---|
-| MoCKA | Deterministic orchestration core |
-| MoCKA-KNOWLEDGE-GATE | Institutional memory |
-| mocka-civilization | Governance doctrine |
-| mocka-transparency | Public verification |
-| mocka-external-brain | External interoperability |
-| mocka-core-private | Sovereign canonical domain |
+External knowledge must never overwrite institutional memory.
 
----
+External knowledge must be treated as input, not authority.
 
-# MoCKA Ecosystem
+All imported knowledge must remain traceable.
 
-## EN — Overview
 
-MoCKA is a verifiable AI governance architecture designed for deterministic decision systems.
+Integration Model
 
-The ecosystem separates operational domains into **Infield** and **Outfield** to ensure:
+External sources may include
 
-• deterministic orchestration  
-• cryptographic auditability  
-• institutional memory preservation  
-• public transparency and verification  
+Research systems
 
-Every artifact inside the ecosystem is designed to be **reproducible, verifiable, and auditable**.
+External AI agents
 
-Architecture Overview
+Knowledge repositories
 
-![Architecture Overview](docs/architecture/mocka_architecture_overview.png)
+Public data streams
 
 
-## JP — 概要
+The system must maintain
 
-MoCKA は、決定論的 AI システムのための  
-**検証可能な統治アーキテクチャ**です。
+Traceability
 
-システムは **Infield / Outfield** の領域分離によって
+Reproducibility
 
-・決定論的オーケストレーション  
-・暗号学的監査可能性  
-・制度的記憶の保存  
-・公開検証による透明性  
+Isolation between internal memory and external sources.
 
-を実現します。
 
-本エコシステム内の成果物はすべて
+日本語説明
 
-**再現可能・検証可能・監査可能**
 
-であることを前提として設計されています。
+mocka-external-brain は
 
-Architecture Overview
+MoCKA エコシステムが
 
-![Architecture Overview](docs/architecture/mocka_architecture_overview.png)
+外部知識
+外部 AI
+外部情報源
 
+とどのように接続するかを定義するリポジトリである。
 
----
 
-## Repository Position
+目的
 
-EN  
-This repository represents one component of the MoCKA ecosystem.
+外部知識を取り込む際に
 
-JP  
-このリポジトリは MoCKA エコシステムの構成要素の一つです。
+制度的記憶
+検証可能性
 
+を破壊しない構造を維持する。
 
----
 
-## MoCKA Ecosystem
+重要原則
 
-| Repository | Role |
-|---|---|
-| MoCKA | Deterministic orchestration core |
-| MoCKA-KNOWLEDGE-GATE | Institutional memory layer |
-| mocka-civilization | Governance doctrine |
-| mocka-transparency | Public verification layer |
-| mocka-external-brain | External interoperability |
-| mocka-core-private | Sovereign canonical domain |
+外部知識は
+制度記憶を書き換えてはならない。
 
+外部知識は
+入力として扱う。
 
----
+すべての知識流入は
+追跡可能である必要がある。
 
-## Security Model
 
-EN  
-MoCKA enforces deterministic behavior and verifiable state transitions using:
+接続対象
 
-• cryptographic signatures  
-• hash chains  
-• reproducible artifacts  
-• governance constraints  
+研究システム
 
-JP  
-MoCKA は以下により決定論的挙動と検証可能状態遷移を保証します。
+外部 AI エージェント
 
-・暗号署名  
-・ハッシュ連鎖  
-・再現可能アーティファクト  
-・統治制約
+知識リポジトリ
 
+公開データストリーム
 
 
----
+必要条件
 
-## EN — Keywords
+追跡可能性
 
-verifiable AI  
-AI governance  
-deterministic systems  
-cryptographic audit  
-reproducible infrastructure  
-AI transparency  
-institutional memory  
-AI verification
+再現可能性
 
----
-
-## JP — キーワード
-
-検証可能AI  
-AI統治  
-決定論的システム  
-暗号監査  
-再現可能インフラ  
-AI透明性  
-制度的記憶  
-AI検証
-
----
-
----
-
-## EN Verification Quickstart
-
-Clone the repository and verify commit signatures.
-
-git clone https://github.com/nsjpkimura-del/MoCKA.git
-cd MoCKA
-git log --show-signature
-
-Verify artifact integrity if hashes are provided.
-
-sha256sum <artifact>
-
-MoCKA repositories are designed to support deterministic builds and verifiable artifacts.
-
-
----
-
-## JP 検証クイックスタート
-
-リポジトリを取得し、コミット署名を確認します。
-
-git clone https://github.com/nsjpkimura-del/MoCKA.git
-cd MoCKA
-git log --show-signature
-
-成果物にハッシュがある場合は完全性を確認します。
-
-sha256sum <artifact>
-
-MoCKA リポジトリは決定論的ビルドと検証可能アーティファクトを前提に設計されています。
-
----
-
-
----
-
-EN Docs Entry
-See docs/INDEX.md for the documentation entry point.
-
-JP Docs 入口
-ドキュメント入口は docs/INDEX.md を参照。
-
----
-
----
-
-EN Document Standard
-
-See _canon/docs/MOCKA_DOCUMENT_STANDARD.md for the official documentation format.
-
-JP 文書規格
-
-公式文書フォーマットは _canon/docs/MOCKA_DOCUMENT_STANDARD.md を参照。
-
----
-
----
-
-EN Architecture Paper
-
-The MoCKA architecture paper is available in
-
-_canon/docs/MOCKA_ARCHITECTURE_PAPER.md
-
-JP アーキテクチャ論文
-
-MoCKA アーキテクチャ論文は以下にある
-
-_canon/docs/MOCKA_ARCHITECTURE_PAPER.md
-
----
-
----
-
-EN Whitepaper
-
-MoCKA Whitepaper
-
-_canon/docs/MOCKA_WHITEPAPER.md
-
-JP ホワイトペーパー
-
-MoCKA ホワイトペーパー
-
-_canon/docs/MOCKA_WHITEPAPER.md
-
----
-
----
-
-## Architecture Overview
-
-See architecture diagram
-
-docs/ARCHITECTURE.md
-
----
-
+内部記憶と外部知識の分離
